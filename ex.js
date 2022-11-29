@@ -19,6 +19,15 @@ window.onload = function(){ // html 문서가 다 읽어진 후에 실행되는 
 
 }
 
+function br(){
+    document.write("<br>");
+}
+var now = new Date();
+
+document.write("현재시간은 : "+now.getFullYear()+"년 "+now.getMonth()+"월 "+now.getDate()+"일 "+now.getHours()
+                +"시 "+now.getMinutes()+"분 "+now.getSeconds()+"초 "+now.getMilliseconds()+"밀리초");br();
+
+
 function login(){
 
     // alert("id:"+str_id+" pw:"+str_pw);
